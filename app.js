@@ -2,6 +2,7 @@
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
 const todoList = document.querySelector(".todo");
+const filterOption = document.querySelector("filter-todo");
 
 //event listeners
 todoButton.addEventListener("click", addTodo);
